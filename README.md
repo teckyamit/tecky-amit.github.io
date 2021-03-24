@@ -1,1 +1,0 @@
-# tecky-amit.github.io

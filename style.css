@@ -1,12 +1,62 @@
-h1{
-    color: white;
-    background: blue;
+*{
+    padding: 0%;
+    margin: 0%;
+}
+h1{    color: blue;
+    background: white;
 }
 table{
     color: white;
     background: skyblue;
+
 }
 h2{
-    color:white;
+    color: white;
     background: blue;
 }
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+
+}
+.one{
+    height: 30vh;
+}
+.two{
+    height: 50px;
+    width: 100%;
+    display:flex;
+    flex-direction: coloum;
+    background-color: red;
+}
+
+li{
+    float: left;
+    padding: 2vh;
+  }
+  ul li a{
+      text-decoration: none;
+      margin: 40vh;
+      color: white;
+  }
+  ul li a{
+      text-decoration: none;
+      margin: 40px;
+      color: white;
+  }
+  li{
+      list-style: none;
+  }
+  button{
+  	align-items: center;
+  	background-color: yellow;
+  	display: flex;
+  	height: 40px;
+  	width: 80px;
+  	text-align: center;
+  	margin: auto;
+  	
+  }
+  th{
+  	background-color:grey;
+  }
